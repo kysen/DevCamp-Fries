@@ -1,0 +1,62 @@
+.footer-section {
+  background-color: #11122b;
+  color: #cbcbcb;
+  font-family: "ubuntu condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  font-size: 1em;
+
+  .bottom-logo {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    img {
+      height: 100%;
+      width: 100%;
+      opacity: 0.5;
+    }
+  }
+  .phone-hours {
+    span {
+      letter-spacing: 2px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .hours {
+      color: #cea135;
+    }
+  }
+  .links-wrapper {
+    width: 400px;
+    padding: 68px 0 52px 0;
+  }
+  .social-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 21px 0;
+    .icon-link {
+      width: 100px;
+      text-align: center;
+      font-size: 1.4em;
+      a {
+        color: #cbcbcb;
+        transition: 0.8s;
+        &:hover {
+          color: #cea135;
+        }
+      }
+    }
+  }
+}
+
+/* UP */
+
+.copyright-wrapper {
+  margin-bottom: 25px;
+  font-size: 0.7em;
+  color: #858585;
+}

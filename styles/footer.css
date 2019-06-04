@@ -1,0 +1,88 @@
+.footer-section {
+  background-color: #11122b;
+  color: #cbcbcb;
+  font-family: "ubuntu condensed", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+  font-size: 1em;
+}
+
+.footer-section .bottom-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+}
+
+.footer-section .bottom-logo img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.footer-section .phone-hours span {
+  letter-spacing: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-section .phone-hours .hours {
+  color: #cea135;
+}
+
+.footer-section .links-wrapper {
+  width: 400px;
+  padding: 68px 0 52px 0;
+}
+
+.footer-section .social-media-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 21px 0;
+}
+
+.footer-section .social-media-wrapper .icon-link {
+  width: 100px;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.footer-section .social-media-wrapper .icon-link a {
+  color: #cbcbcb;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.footer-section .social-media-wrapper .icon-link a:hover {
+  color: #cea135;
+}
+
+/* UP */
+.copyright-wrapper {
+  margin-bottom: 25px;
+  font-size: 0.7em;
+  color: #858585;
+}
+/*# sourceMappingURL=footer.css.map */

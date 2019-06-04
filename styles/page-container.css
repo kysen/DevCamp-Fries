@@ -1,0 +1,26 @@
+/* page container */
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-container .content-wrapper {
+  width: 1000px;
+}
+
+.page-container .content-wrapper #chef {
+  width: 350px;
+  margin: 25px 40px 20px 0;
+  float: left;
+  border: 2px solid #cea135;
+}
+
+.page-container .content-wrapper p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+/*# sourceMappingURL=page-container.css.map */

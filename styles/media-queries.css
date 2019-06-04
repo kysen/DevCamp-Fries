@@ -1,0 +1,110 @@
+@media (max-width: 615px) {
+  .navigation-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+  .navigation-wrapper .left-column {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .navigation-wrapper .center-column {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+  }
+  .navigation-wrapper .right-column {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 15px;
+  }
+  .links-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .links-wrapper .nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    width: 100%;
+  }
+  .hero-section {
+    padding: 50px 10px;
+  }
+  .features-section {
+    height: 100%;
+  }
+  .features-section .columns-wrapper {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-section {
+    height: 100%;
+  }
+  .footer-section .bottom-logo img {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-section .links-wrapper {
+    padding: 15px;
+  }
+  /* SKEWED HEADER */
+  .skewed-header {
+    height: 300px;
+  }
+  .skewed-header .header-bg {
+    height: 300px;
+  }
+  .skewed-header-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skewed-header-content .heading-wrapper h1 {
+    font-size: 1.8em;
+  }
+  .skewed-header-content .links-wrapper {
+    font-size: 0.8em;
+  }
+  .skewed-header-content .links-wrapper a {
+    letter-spacing: 1px;
+  }
+  .page-container {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  .page-container .content-wrapper #chef {
+    margin: 25px 25px 15px 0px !important;
+    width: 100%;
+  }
+  /* squares */
+  .square {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .square .square-text-wrapper {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .square .img-wrapper {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */

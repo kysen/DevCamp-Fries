@@ -1,0 +1,18 @@
+.button {
+  background-color: #cea135;
+  color: #11122b;
+  font-size: 1.25em;
+  padding: 10px 25px;
+  border: 1px solid #cea135;
+  border-radius: 2px;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.button:active {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  border-color: gray;
+}
+/*# sourceMappingURL=buttons.css.map */
